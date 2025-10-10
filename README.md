@@ -1,16 +1,16 @@
-# MediaApi
+# MediaFoundation
 
 ---
 
 ## Overview
 
-MediaApi is a modular framework built for the BASE3 ecosystem. It provides a unified foundation for working with media of all types—images, video, and audio—under a consistent, extensible API. The goal is to offer a common layer for plugins and services that require media loading, transformation, analysis, and export.
+MediaFoundation is a modular framework built for the BASE3 ecosystem. It provides a unified foundation for working with media of all types—images, video, and audio—under a consistent, extensible API. The goal is to offer a common layer for plugins and services that require media loading, transformation, analysis, and export.
 
 ---
 
 ## Vision
 
-MediaApi aims to establish a cross-domain media abstraction that integrates seamlessly into the BASE3 runtime. Each media type (image, video, audio, and later others like 3D or streaming) is handled by specialized components built on shared infrastructure and conventions.
+MediaFoundation aims to establish a cross-domain media abstraction that integrates seamlessly into the BASE3 runtime. Each media type (image, video, audio, and later others like 3D or streaming) is handled by specialized components built on shared infrastructure and conventions.
 
 Future extensions may include:
 
@@ -24,7 +24,7 @@ Future extensions may include:
 
 ## Architecture Principles
 
-MediaApi is designed to be:
+MediaFoundation is designed to be:
 
 * **Modular:** Each media type can be developed, deployed, and extended independently.
 * **Consistent:** Unified API patterns for all media operations.
@@ -36,7 +36,7 @@ MediaApi is designed to be:
 
 ## Components
 
-The core of MediaApi consists of several conceptual layers:
+The core of MediaFoundation consists of several conceptual layers:
 
 * **Core API:** Abstract interfaces and data models.
 * **Service Layer:** Media operations such as import, export, and transformation.
@@ -69,5 +69,5 @@ Contributions are welcome once the base API structure is released. The focus wil
 
 ## License
 
-MediaApi is released under the GNU General Public License v3 (GPLv3).
+MediaFoundation is released under the GNU General Public License v3 (GPLv3).
 

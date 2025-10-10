@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 
-namespace MediaApi;
+namespace MediaFoundation;
 
 use Base3\Api\IContainer;
 use Base3\Api\IPlugin;
 
-class MediaApiPlugin implements IPlugin {
+class MediaFoundationPlugin implements IPlugin {
 
 	public function __construct(private readonly IContainer $container) {}
 
 	// Implementation of IBase
 
 	public static function getName(): string {
-		return 'mediaapiplugin';
+		return 'mediafoundationplugin';
 	}
 
 	// Implementation of IPlugin
