@@ -71,3 +71,8 @@ Contributions are welcome once the base API structure is released. The focus wil
 
 MediaFoundation is released under the GNU General Public License v3 (GPLv3).
 
+
+## Documentation
+
+- [Frequently Asked Questions](docs/faq.md)
+- [Privacy and data processing](PRIVACY.md)
