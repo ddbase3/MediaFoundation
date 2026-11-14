@@ -14,7 +14,7 @@ For example, `IImageRenderer` defines how an edited image derivative is requeste
 
 ## What is the base media contract?
 
-`MediaFoundation\Api\IMedia` is the common contract for media objects. It provides:
+`Base3\MediaFoundation\Api\IMedia` is the common contract for media objects. It provides:
 
 - `getMimeType()` for the media MIME type
 - `getSize()` for the payload size in bytes
@@ -109,7 +109,7 @@ MediaFoundation itself does not provide such a renderer.
 
 ## What is `ImageEdit`?
 
-`MediaFoundation\Builder\ImageEdit` is a fluent, renderer-neutral description of image editing intent.
+`Base3\MediaFoundation\Builder\ImageEdit` is a fluent, renderer-neutral description of image editing intent.
 
 It does not edit pixels itself. It builds a structured specification that an `IImageRenderer` implementation can interpret.
 

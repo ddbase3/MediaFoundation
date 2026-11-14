@@ -15,7 +15,7 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Exception;
+namespace Base3\MediaFoundation\Exception;
 
 use RuntimeException;
 

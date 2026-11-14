@@ -15,11 +15,11 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Builder;
+namespace Base3\MediaFoundation\Builder;
 
 use JsonSerializable;
-use MediaFoundation\Api\IImageRenderer;
-use MediaFoundation\Exception\InvalidImageEditException;
+use Base3\MediaFoundation\Api\IImageRenderer;
+use Base3\MediaFoundation\Exception\InvalidImageEditException;
 
 /**
  * Fluent edit description for "edit an image and render it".

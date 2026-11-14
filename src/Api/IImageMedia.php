@@ -15,7 +15,7 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Api;
+namespace Base3\MediaFoundation\Api;
 
 /**
  * Image media (bitmap-based formats like PNG, JPEG, WebP, etc.).

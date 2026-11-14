@@ -15,10 +15,10 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation;
+namespace Base3\MediaFoundation;
 
-use Base3\Api\IContainer;
-use Base3\Api\IPlugin;
+use Base3\CoreFoundation\Api\IContainer;
+use Base3\CoreFoundation\Api\IPlugin;
 
 class MediaFoundationPlugin implements IPlugin {
 

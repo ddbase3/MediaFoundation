@@ -15,9 +15,9 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Model;
+namespace Base3\MediaFoundation\Model;
 
-use MediaFoundation\Api\IImageMedia;
+use Base3\MediaFoundation\Api\IImageMedia;
 
 /**
  * Bitmap-based image media (PNG, JPEG, WebP, etc.).

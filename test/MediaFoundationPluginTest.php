@@ -1,10 +1,25 @@
 <?php declare(strict_types=1);
 
-namespace MediaFoundation\Test;
+/***********************************************************************
+ * This file is part of MediaFoundation for BASE3 Framework.
+ *
+ * MediaFoundation extends the BASE3 framework with a unified API
+ * foundation for working with images, video, and audio.
+ * It provides shared interfaces for modular media processing.
+ *
+ * Developed by Daniel Dahme
+ * Licensed under GPL-3.0
+ * https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * https://base3.de/v/mediafoundation
+ * https://github.com/ddbase3/MediaFoundation
+ **********************************************************************/
 
-use Base3\Api\IContainer;
-use Base3\Api\IPlugin;
-use MediaFoundation\MediaFoundationPlugin;
+namespace Base3\MediaFoundation\Test;
+
+use Base3\CoreFoundation\Api\IContainer;
+use Base3\CoreFoundation\Api\IPlugin;
+use Base3\MediaFoundation\MediaFoundationPlugin;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 

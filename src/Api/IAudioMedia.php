@@ -15,7 +15,7 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Api;
+namespace Base3\MediaFoundation\Api;
 
 /**
  * Audio media, e.g. MP3, WAV, OGG.

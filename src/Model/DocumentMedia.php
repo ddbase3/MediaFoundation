@@ -15,9 +15,9 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Model;
+namespace Base3\MediaFoundation\Model;
 
-use MediaFoundation\Api\IDocumentMedia;
+use Base3\MediaFoundation\Api\IDocumentMedia;
 
 /**
  * Document media, e.g. PDF, DOCX, XLSX, CSV.

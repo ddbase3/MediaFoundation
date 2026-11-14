@@ -15,9 +15,9 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Model;
+namespace Base3\MediaFoundation\Model;
 
-use MediaFoundation\Api\IVideoMedia;
+use Base3\MediaFoundation\Api\IVideoMedia;
 
 /**
  * Video media, e.g. MP4, WebM.

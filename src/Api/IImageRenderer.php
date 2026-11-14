@@ -15,10 +15,10 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Api;
+namespace Base3\MediaFoundation\Api;
 
-use MediaFoundation\Builder\ImageEdit;
-use MediaFoundation\Exception\ImageRenderException;
+use Base3\MediaFoundation\Builder\ImageEdit;
+use Base3\MediaFoundation\Exception\ImageRenderException;
 
 /**
  * Image renderer backend interface.
@@ -34,14 +34,14 @@ use MediaFoundation\Exception\ImageRenderException;
  */
 interface IImageRenderer
 {
-    /**
-     * Render an edited derivative of an image.
-     *
-     * @param string   $inputPath  Absolute path to the source image on local disk.
-     * @param ImageEdit $edit      Edit description (crop/rotate/color/watermark/export).
-     * @param string   $outputPath Absolute path to the output file to be written.
-     *
-     * @throws ImageRenderException If rendering fails for any reason (decode, invalid options, IO, tooling).
-     */
-    public function render(string $inputPath, ImageEdit $edit, string $outputPath): void;
+	/**
+	 * Render an edited derivative of an image.
+	 *
+	 * @param string   $inputPath  Absolute path to the source image on local disk.
+	 * @param ImageEdit $edit      Edit description (crop/rotate/color/watermark/export).
+	 * @param string   $outputPath Absolute path to the output file to be written.
+	 *
+	 * @throws ImageRenderException If rendering fails for any reason (decode, invalid options, IO, tooling).
+	 */
+	public function render(string $inputPath, ImageEdit $edit, string $outputPath): void;
 }

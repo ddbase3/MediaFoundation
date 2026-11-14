@@ -1,11 +1,26 @@
 <?php declare(strict_types=1);
 
-namespace MediaFoundation\Test\Model;
+/***********************************************************************
+ * This file is part of MediaFoundation for BASE3 Framework.
+ *
+ * MediaFoundation extends the BASE3 framework with a unified API
+ * foundation for working with images, video, and audio.
+ * It provides shared interfaces for modular media processing.
+ *
+ * Developed by Daniel Dahme
+ * Licensed under GPL-3.0
+ * https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * https://base3.de/v/mediafoundation
+ * https://github.com/ddbase3/MediaFoundation
+ **********************************************************************/
 
-use MediaFoundation\Api\IAudioMedia;
-use MediaFoundation\Api\IBinaryMedia;
-use MediaFoundation\Model\AudioMedia;
-use MediaFoundation\Model\BinaryMedia;
+namespace Base3\MediaFoundation\Test\Model;
+
+use Base3\MediaFoundation\Api\IAudioMedia;
+use Base3\MediaFoundation\Api\IBinaryMedia;
+use Base3\MediaFoundation\Model\AudioMedia;
+use Base3\MediaFoundation\Model\BinaryMedia;
 use PHPUnit\Framework\TestCase;
 
 final class AudioMediaTest extends TestCase {

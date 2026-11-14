@@ -15,7 +15,7 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Api;
+namespace Base3\MediaFoundation\Api;
 
 /**
  * Document media, e.g. PDF, DOCX, XLSX, CSV.

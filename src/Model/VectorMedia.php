@@ -15,9 +15,9 @@
  * https://github.com/ddbase3/MediaFoundation
  **********************************************************************/
 
-namespace MediaFoundation\Model;
+namespace Base3\MediaFoundation\Model;
 
-use MediaFoundation\Api\IVectorMedia;
+use Base3\MediaFoundation\Api\IVectorMedia;
 
 /**
  * Vector-based media such as SVG or EPS.
